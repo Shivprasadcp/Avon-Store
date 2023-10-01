@@ -1811,8 +1811,132 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
   margin: auto;
 }
 
+/* 
 
+.reviews-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 
+.reviews-list {
+  list-style: none;
+  padding: 0;
+}
+
+.review {
+  border-bottom: 1px solid #ccc;
+  padding: 20px;
+}
+
+.review-author {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.review-author img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.review-content {
+  margin-bottom: 10px;
+}
+
+.review-rating {
+  display: inline-flex;
+  align-items: center;
+}
+
+.review-rating ion-icon {
+  font-size: 20px;
+  color: gold;
+}
+ */
+
+ .reviews-container {
+  margin: 20px 0;
+}
+
+.reviews-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.review {
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.review-author {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.review-author img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.review-content {
+  margin-bottom: 10px;
+}
+
+.review-rating {
+  display: inline-flex;
+  align-items: center;
+}
+
+.review-rating ion-icon {
+  font-size: 20px;
+  color: gold;
+}
+
+.satisfaction {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.satisfaction input[type="range"] {
+  width: 100%;
+  -webkit-appearance: none;
+}
+
+.satisfaction input[type="range"]:focus {
+  outline: none;
+}
+
+.satisfaction input[type="range"]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 8px;
+  cursor: pointer;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+  background-color: #ccc;
+  border-radius: 4px;
+}
+
+.satisfaction input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  background-color: #000;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  margin-top: -4px;
+}
+
+.satisfaction input[type="range"]:active::-webkit-slider-thumb {
+  background-color: #fff;
+  border-color: #000;
+}
 
 
 /*-----------------------------------*\
